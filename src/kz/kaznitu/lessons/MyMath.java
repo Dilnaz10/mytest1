@@ -25,5 +25,8 @@ public class MyMath {
         else
             return a;
     }
+    public static int lsOdd(int a){
+        return(a%2 ! =0);
+    }
 
 }
