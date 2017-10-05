@@ -7,12 +7,7 @@ public class Hello {
         System.out.println("Bul zertkhanalyk zhumystyn maksaty:");
         System.out.println("GitHub-pen zhumys zhasap uirenu.");
 
-        int a = MyMath.kvadrat(a: 5);
-        int b = MyMath.kub(a: 5);
-
-        System.out.println("a= " + a);
-        System.out.println("b= " +b);
-
-        System.out.println(MyMath.max(a: 8, b: 9));
+        System.out.println("max= " + MyMath.max3(a:8, b:9, c:12));
+        System.out.println("min= " + MyMath.min3(a:12, b:9, c:15));
     }
 }
